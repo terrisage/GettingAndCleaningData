@@ -2,21 +2,38 @@
 
 Getting and Cleaning Data Programming Assignment
 
-Following text was copied from the Coursera Data Science Specialization Getting and Cleaning Data Course Programming Assignment. 
-
-The purpose of this project is to demonstrate your ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. You will be graded by your peers on a series of yes/no questions related to the project. You will be required to submit: 1) a tidy data set as described below, 2) a link to a Github repository with your script for performing the analysis, and 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.  
-
-One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. The theme of this project is the data collected from wearable computing such as Fitbit and Jawbone up. The data linked for this project represents the data collected from a Samsung Galaxy accelerometer. A full description is available at the site where the data was obtained: 
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-Here are the data for the project: 
+Data for the project: 
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
- You should create one R script called run_analysis.R that does the following. 
-Merges the training and the test sets to create one data set.
-Extracts only the measurements on the mean and standard deviation for each measurement. 
-Uses descriptive activity names to name the activities in the data set
-Appropriately labels the data set with descriptive variable names. 
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+This Github repository contains: 
+1. Readme file named README.md which is this file describing the purpose and contents of the repository
+2. R Programming script named run_analysis.R for running in RStudio
+2. Tidy dataset named tidydata.txt with the average of each variable for each activity and each subject
+3. Codebook named CodeBook.md which describes the variables, the data, and any transformations
+
+Two files, run_analysis.R and Codebook.md are described in more detail below.
+
+run_analysis.R
+
+The script was implemented in RStudio on a MacBook Air running OS X Yosemite. The MacBook Air has 1.7 GHz Intel Core i7 processor, 8 GB of 1600 MHz DDR3 memory, and version 10.10.3 OS X. The script took about 3 minutes to run on that MacBook. The script has not been tested in other enviroments or with other configurations.  
+
+The script performs the following high-level tasks:
+
+Prepares the R dependencies and the working directories
+Downloads and unzips the original dataset 
+Loads the features, keeps only the variable related to mean and std
+Loads the subjects and activities. It merges them.
+It merges features, subjects, and activities
+Cleans the variable names to human readable form (and R coding standard compliant)
+Creates the tidy data set contained in tidydata.txt with the average of each variable for each activity and each subject.
+
+
+CodeBook.md
+
+The CodeBook contains a description of the original dataset, the data acquisition process, the data transformation process, the variables, and the tidy dataset format.
+
