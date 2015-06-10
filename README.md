@@ -15,7 +15,7 @@ This Github repository contains:
 1. Readme file named README.md which is this file describing the purpose and contents of the repository,
 2. R Programming script named run_analysis.R for running in RStudio,
 2. Tidy dataset named tidydata.txt with the average of each variable for each activity and each subject, and
-3. Codebook named CodeBook.md which describes the complete list of all tge data, showing the name of each variable, the values the variable takes, and a description of how that variable is operationalized.  
+3. Codebook named CodeBook.md which describes the complete list of all the data, showing the name of each variable, the values the variable takes, and a description of how that variable is operationalized.  
 
 Two files, run_analysis.R and Codebook.md are described in more detail below.
 
