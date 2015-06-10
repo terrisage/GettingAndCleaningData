@@ -1,6 +1,6 @@
 # Getting And Cleaning Data Programming Assignment
 
-The purpose of this project is to demonstrate my ability to collect, work with, and clean a data set. The goal is to 
+The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to 
 prepare tidy data that can be used for later analysis. The theme of this project is the data collected from wearable 
 computing such as Fitbit and Jawbone up. The data linked for this project represents the data collected from a 
 Samsung Galaxy accelerometer. A full description is available at the site where the data was obtained: 
@@ -15,7 +15,7 @@ This Github repository contains:
 1. Readme file named README.md which is this file describing the purpose and contents of the repository,
 2. R Programming script named run_analysis.R for running in RStudio,
 2. Tidy dataset named tidydata.txt with the average of each variable for each activity and each subject, and
-3. Codebook named CodeBook.md which describes the variables, the data, and any transformations. 
+3. Codebook named CodeBook.md which describes the complete list of all tge data, showing the name of each variable, the values the variable takes, and a complete description of how that variable is operationalized.  
 
 Two files, run_analysis.R and Codebook.md are described in more detail below.
 
