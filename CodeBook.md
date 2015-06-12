@@ -29,15 +29,15 @@ Following steps were used to process the data:
 
 - UCI HAR Dataset/activity_labels provides a mapping of the numeric (index) to the activity. For example, 1 maps to walking and 2 maps to walking upstairs.
 
-c.  UCI HAR Dataset/train/subject_train.txt provides training data on the subject identify who performed the activity for each training sample and range from 1 to 30.
+- UCI HAR Dataset/train/subject_train.txt provides training data on the subject identify who performed the activity for each training sample and range from 1 to 30.
 
-d.  UCI HAR Dataset/train/X_train.txt provides data for the training set.
+- UCI HAR Dataset/train/X_train.txt provides data for the training set.
 
-e.  UCI HAR Dataset/train/y_train.txt provides training labels for the training set of data, for example, 5 maps to tBodyAcc-std()-Y from the features.txt file.
+- UCI HAR Dataset/train/y_train.txt provides training labels for the training set of data, for example, 5 maps to tBodyAcc-std()-Y from the features.txt file.
 
-f.  UCI HAR Dataset/test/subject_test.txt provides test data on the subject identified by a numeric who performed the activity for each test data.
+- UCI HAR Dataset/test/subject_test.txt provides test data on the subject identified by a numeric who performed the activity for each test data.
 
-g.  UCI HAR Dataset/test/X_test.txt provides data for the test set.
+- UCI HAR Dataset/test/X_test.txt provides data for the test set.
 
 h.  UCI HAR Dataset/test/y_test.txt provides data test labels for the test set. 
 
