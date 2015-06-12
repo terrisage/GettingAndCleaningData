@@ -39,11 +39,13 @@ Following steps were used to process the data:
 
 - UCI HAR Dataset/test/X_test.txt provides data for the test set.
 
-h.  UCI HAR Dataset/test/y_test.txt provides data test labels for the test set. 
+- UCI HAR Dataset/test/y_test.txt provides data test labels for the test set. 
 
-3. 
+3. Merge the training and test data sets together by reading training and test data from the files using read table and performing rbind. This is performed for: 1. training and test datasets, 2. training and test subjects, 3. training and test lables. 
 
-3.	
+4. Extract the measurements on the mean and standard deviations for each measurement using grep to indentify the index of the variable contained within the table. The summary choices has more information in terms of selection of the variables.
+
+
 
 
 ## Variables
