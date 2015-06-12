@@ -21,8 +21,8 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 Following steps were used to process the data: 
 
 
-- The data was obtained as a download file using the curl method from the URL noted above. Curl is an open source command line tool found on Mac OS and Windows for transferring data with URL syntax including HTTP and HTTPS. See http://curl.haxx.se/ for more information. 
-- The file was unzipped into a local working directory. The following primary data files were used in this assignment:
+1. The data was obtained as a download file using the curl method from the URL noted above. Curl is an open source command line tool found on Mac OS and Windows for transferring data with URL syntax including HTTP and HTTPS. See http://curl.haxx.se/ for more information. 
+2. The file was unzipped into a local working directory. The following primary data files were used in this assignment:
     - UCI HAR Dataset/features.txt lists all of the features collected and in turn will be used for the column headings. The column headings will be described in the variables section below.
     - UCI HAR Dataset/activity_labels provides a mapping of the numeric (index) to the activity. For example, 1 maps to walking and 2 maps to walking upstairs.
     - UCI HAR Dataset/train/subject_train.txt provides training data on the subject identify who performed the activity for each training sample and range from 1 to 30.
@@ -30,8 +30,7 @@ Following steps were used to process the data:
     - UCI HAR Dataset/train/y_train.txt provides training labels for the training set of data, for example, 5 maps to tBodyAcc-std()-Y from the features.txt file.
     - UCI HAR Dataset/test/subject_test.txt provides test data on the subject identified by a numeric who performed the activity for each test data.
     - UCI HAR Dataset/test/X_test.txt provides data for the test set.
-- UCI HAR Dataset/test/y_test.txt provides data test labels for the test set. 
-
+    - UCI HAR Dataset/test/y_test.txt provides data test labels for the test set. 
 3. Merge the training and test data sets together by reading training and test data from the files using read table and performing rbind. This is performed for: 1. training and test datasets, 2. training and test subjects, 3. training and test lables. 
 4. Extract the measurements on the mean and standard deviations for each measurement using grep to indentify the index of the variable contained within the table. The summary choices has more information in terms of selection of the variables.
 
