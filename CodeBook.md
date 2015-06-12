@@ -20,16 +20,27 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 Following steps were used to process the data: 
 
+
 1. The data was obtained as a download file using the curl method from the URL noted above. Curl is an open source command line tool found on Mac OS and Windows for transferring data with URL syntax including HTTP and HTTPS. See http://curl.haxx.se/ for more information. 
+
 2. The file was unzipped into a local working directory. The following primary data files were used in this assignment:
+
 a.	UCI HAR Dataset/features.txt lists all of the features collected and in turn will be used for the column headings. The column headings will be described in the variables section below. 
+
 b.	UCI HAR Dataset/activity_labels provides a mapping of the numeric (index) to the activity. For example, 1 maps to walking and 2 maps to walking upstairs.
+
 c.  UCI HAR Dataset/train/subject_train.txt provides training data on the subject identify who performed the activity for each training sample and range from 1 to 30.
+
 d.  UCI HAR Dataset/train/X_train.txt provides data for the training set.
+
 e.  UCI HAR Dataset/train/y_train.txt provides training labels for the training set of data, for example, 5 maps to tBodyAcc-std()-Y from the features.txt file.
+
 f.  UCI HAR Dataset/test/subject_test.txt provides test data on the subject identified by a numeric who performed the activity for each test data.
+
 g.  UCI HAR Dataset/test/X_test.txt provides data for the test set.
+
 h.  UCI HAR Dataset/test/y_test.txt provides data test labels for the test set. 
+
 3. 
 
 3.	
