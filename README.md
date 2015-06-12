@@ -19,6 +19,7 @@ This Github repository contains:
 
 Two files, run_analysis.R and Codebook.md are described in more detail below.
 
+
 # run_analysis.R
 
 The script was implemented in RStudio on a MacBook Air running OS X Yosemite. The MacBook Air has 1.7 GHz Intel Core i7 processor, 8 GB of 1600 MHz DDR3 memory, and version 10.10.3 OS X. The script took about 3 minutes to run on that MacBook. The script has not been tested in other enviroments or with other configurations. 
