@@ -3,7 +3,7 @@
 library(tidyr)
 library(dplyr)
 
-## 1. download the file as dataset.zip into the working directory and 2. unzip file
+## 1. Download the file as dataset.zip into the working directory and 2. unzip file
 if (!file.exists("dataset.zip")) {
 download.file(url="https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip", destfile="dataset.zip", method="curl")
 unzip("dataset.zip")
