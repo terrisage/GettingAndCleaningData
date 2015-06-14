@@ -1,5 +1,7 @@
 # Getting And Cleaning Data Programming Assignment
 
+# README.md
+
 The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to 
 prepare tidy data that can be used for later analysis. The theme of this project is the data collected from wearable 
 computing such as Fitbit and Jawbone up. The data linked for this project represents the data collected from a 
