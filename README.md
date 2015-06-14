@@ -20,7 +20,7 @@ This Github repository contains:
 Two files, run_analysis.R and Codebook.md are described in more detail below.
 
 
-# run_analysis.R
+## run_analysis.R
 
 The script was implemented in RStudio on a MacBook Air running OS X Yosemite. The MacBook Air has 1.7 GHz Intel Core i7 processor, 8 GB of 1600 MHz DDR3 memory, and version 10.10.3 OS X. The script took about 3 minutes to run on that MacBook. The script has not been tested in other enviroments or with other configurations. 
 
@@ -32,9 +32,10 @@ This script:
 - Uses descriptive activity names to name the activities in the data set
 - Appropriately labels the data set with descriptive variable names. 
 - From the data set, creates a second, independent tidy data set file named tidydata.txt with the average of each variable for each activity and each subject.
+- Writes the dataset to the file tidydata.txt
 
 
-# CodeBook.md
+## CodeBook.md
 
 The CodeBook contains information about the original dataset, variables (including units) in the data, information about summary choices, and information about the experimental study design used. 
 
