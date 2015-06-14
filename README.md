@@ -17,7 +17,7 @@ This Github repository contains:
 - Tidy dataset named tidydata.txt with the average of each variable for each activity and each subject, and
 - Codebook named CodeBook.md which describes the complete list of all the data, showing the name of each variable, the values the variable takes, and a description of how that variable is operationalized.  
 
-Two files, run_analysis.R and Codebook.md are described in more detail below.
+Three files, run_analysis.R, Codebook.md, and tidydata.txt are described in more detail below.
 
 
 ## run_analysis.R
@@ -39,3 +39,6 @@ This script:
 
 The CodeBook contains information about the original dataset, variables (including units) in the data, information about summary choices, and information about the experimental study design used. 
 
+## tidydata.txt
+
+The tidy dataset is written to the tidydata.txt file and contains subject identifier (ID), activity (e.g, walking), measurement (descriptive variable of the measurement collected), and mean for the measurement. 
