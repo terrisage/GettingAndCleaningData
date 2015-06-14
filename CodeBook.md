@@ -4,10 +4,11 @@ Data for this project was obtained from the website and source:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-## Source: 
+## Source of Data: 
 
-Jorge L. Reyes­Ortiz(1,2), Davide Anguita(1), Alessandro Ghio(1), Luca Oneto(1) and Xavier Parra(2) 1 ­ Smartlab ­ Non­Linear Complex Systems Laboratory DITEN ­ Università degli Studi di Genova, Genoa (I­16145), Italy. 2 ­ CETpD ­ Technical Research Centre for Dependency Care and Autonomous Living 
-Universitat Politècnica de Catalunya (BarcelonaTech). Vilanova i la Geltrú (08800), Spain activityrecognition '@' smartlab.ws 
+Use of this dataset in publications must be acknowledged by referencing the following publication [1].
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
 
 ## Study Design
@@ -31,9 +32,12 @@ Following steps were used to process the data:
     - UCI HAR Dataset/test/subject_test.txt provides test data on the subject identified by a numeric who performed the activity for each test data.
     - UCI HAR Dataset/test/X_test.txt provides data for the test set.
     - UCI HAR Dataset/test/y_test.txt provides data test labels for the test set. 
-3. Merge the training and test data sets together by reading training and test data from the files using read table and performing rbind. This is performed for: 1. training and test datasets, 2. training and test subjects, 3. training and test lables. 
-4. Extract the measurements on the mean and standard deviations for each measurement using grep to indentify the index of the variable contained within the table. The summary choices has more information in terms of selection of the variables.
-
+3. Merged the training and test data sets together by reading training and test data from the files using read table and performing rbind. This is performed for: 1. training and test datasets, 2. training and test subjects, 3. training and test labels. Note the labels map to the features dataset, whiich is a list of the variable measurements collected during the study.
+4. Extracted the measurements on the mean and standard deviations for each measurement using grep to indentify the index of the variable contained within the table. The functions sub and gsub were used to create descriptive variable names. The summary choices has more information in terms of selection of the variables.
+5. Used the gsub and lower case functions to create descriptive activity names to name the activities in the data set.
+6. Appropriately labels the data set with descriptive activity names.Then create an aggregation of the datasets.
+7. Created a 2nd, independent tidy data set with the average of each variable for each activity and each subject using tidyr and dplyr functions to gather, group by, and summarize data. 
+8. Write out the tidy data set to tidydata.txt
 
 
 
