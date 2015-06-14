@@ -43,4 +43,59 @@ Following steps were used to process the data:
 
 ## Variables
 
+This section has information about the variables, including units, in the data set not contained in the tidy data.
+
+### Features
+
+Features selected come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). The feature variables were further filtered to the mean and standard deviation variables. The units used are positive and negative floating point numbers. 
+
+ [1] "timebodyaccelerometer-mean-x"                        "timebodyaccelerometer-mean-y"                       
+ [3] "timebodyaccelerometer-mean-z"                        "timebodyaccelerometer-std-dev-x"                    
+ [5] "timebodyaccelerometer-std-dev-y"                     "timebodyaccelerometer-std-dev-z"                    
+ [7] "timegravityaccelerometer-mean-x"                     "timegravityaccelerometer-mean-y"                    
+ [9] "timegravityaccelerometer-mean-z"                     "timegravityaccelerometer-std-dev-x"                 
+[11] "timegravityaccelerometer-std-dev-y"                  "timegravityaccelerometer-std-dev-z"                 
+[13] "timebodyaccelerometerjerk-mean-x"                    "timebodyaccelerometerjerk-mean-y"                   
+[15] "timebodyaccelerometerjerk-mean-z"                    "timebodyaccelerometerjerk-std-dev-x"                
+[17] "timebodyaccelerometerjerk-std-dev-y"                 "timebodyaccelerometerjerk-std-dev-z"                
+[19] "timebodygyroscope-mean-x"                            "timebodygyroscope-mean-y"                           
+[21] "timebodygyroscope-mean-z"                            "timebodygyroscope-std-dev-x"                        
+[23] "timebodygyroscope-std-dev-y"                         "timebodygyroscope-std-dev-z"                        
+[25] "timebodygyroscopejerk-mean-x"                        "timebodygyroscopejerk-mean-y"                       
+[27] "timebodygyroscopejerk-mean-z"                        "timebodygyroscopejerk-std-dev-x"                    
+[29] "timebodygyroscopejerk-std-dev-y"                     "timebodygyroscopejerk-std-dev-z"                    
+[31] "timebodyaccelerometermagnitude-mean"                 "timebodyaccelerometermagnitude-std-dev"             
+[33] "timegravityaccelerometermagnitude-mean"              "timegravityaccelerometermagnitude-std-dev"          
+[35] "timebodyaccelerometerjerkmagnitude-mean"             "timebodyaccelerometerjerkmagnitude-std-dev"         
+[37] "timebodygyroscopemagnitude-mean"                     "timebodygyroscopemagnitude-std-dev"                 
+[39] "timebodygyroscopejerkmagnitude-mean"                 "timebodygyroscopejerkmagnitude-std-dev"             
+[41] "frequencybodyaccelerometer-mean-x"                   "frequencybodyaccelerometer-mean-y"                  
+[43] "frequencybodyaccelerometer-mean-z"                   "frequencybodyaccelerometer-std-dev-x"               
+[45] "frequencybodyaccelerometer-std-dev-y"                "frequencybodyaccelerometer-std-dev-z"               
+[47] "frequencybodyaccelerometerjerk-mean-x"               "frequencybodyaccelerometerjerk-mean-y"              
+[49] "frequencybodyaccelerometerjerk-mean-z"               "frequencybodyaccelerometerjerk-std-dev-x"           
+[51] "frequencybodyaccelerometerjerk-std-dev-y"            "frequencybodyaccelerometerjerk-std-dev-z"           
+[53] "frequencybodygyroscope-mean-x"                       "frequencybodygyroscope-mean-y"                      
+[55] "frequencybodygyroscope-mean-z"                       "frequencybodygyroscope-std-dev-x"                   
+[57] "frequencybodygyroscope-std-dev-y"                    "frequencybodygyroscope-std-dev-z"                   
+[59] "frequencybodyaccelerometermagnitude-mean"            "frequencybodyaccelerometermagnitude-std-dev"        
+[61] "frequencybodybodyaccelerometerjerkmagnitude-mean"    "frequencybodybodyaccelerometerjerkmagnitude-std-dev"
+[63] "frequencybodybodygyroscopemagnitude-mean"            "frequencybodybodygyroscopemagnitude-std-dev"        
+[65] "frequencybodybodygyroscopejerkmagnitude-mean"        "frequencybodybodygyroscopejerkmagnitude-std-dev"   
+
+### Activities
+
+Activities collected are inks the class labels, which are represented as a code value from 1 to 6, with their activity name. The activity name is indicated with variable text as denoted below.
+1 walking
+2 walking upstairs
+3 walking dowstairs
+4 sitting
+5 standing
+
+### Subject ID
+
+Subject identifiers, represented using a numeric, are used to uniquely identify subjects that participated in this study. The values for subect identifiers range from the numeric 1 to 30.
+6 laying down. 
+
+
 ## Summary Choices
