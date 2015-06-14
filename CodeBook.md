@@ -49,72 +49,72 @@ This section has information about the variables, including units, in the data s
 
 Features selected come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). The feature variables were further filtered to the mean and standard deviation variables. The units used are positive and negative floating point numbers. A total of 66 variables were collected
 
-timebodyaccelerometer-mean-x
-timebodyaccelerometer-mean-y
-timebodyaccelerometer-mean-z
-timebodyaccelerometer-std-dev-x
-timebodyaccelerometer-std-dev-y
-timebodyaccelerometer-std-dev-z
-timegravityaccelerometer-mean-x
-timegravityaccelerometer-mean-y
-timegravityaccelerometer-mean-z
-timegravityaccelerometer-std-dev-x
-timegravityaccelerometer-std-dev-y
-timegravityaccelerometer-std-dev-z
-timebodyaccelerometerjerk-mean-x
-timebodyaccelerometerjerk-mean-y
-timebodyaccelerometerjerk-mean-z
-timebodyaccelerometerjerk-std-dev-x
-timebodyaccelerometerjerk-std-dev-y
-timebodyaccelerometerjerk-std-dev-z
-timebodygyroscope-mean-x
-timebodygyroscope-mean-y
-timebodygyroscope-mean-z
-timebodygyroscope-std-dev-x
-timebodygyroscope-std-dev-y
-timebodygyroscope-std-dev-z
-timebodygyroscopejerk-mean-x
-timebodygyroscopejerk-mean-y
-timebodygyroscopejerk-mean-z
-timebodygyroscopejerk-std-dev-x
-timebodygyroscopejerk-std-dev-y
-timebodygyroscopejerk-std-dev-z
-timebodyaccelerometermagnitude-mean
-timebodyaccelerometermagnitude-std-dev
-timegravityaccelerometermagnitude-mean
-timegravityaccelerometermagnitude-std-dev
-timebodyaccelerometerjerkmagnitude-mean
-timebodyaccelerometerjerkmagnitude-std-dev
-timebodygyroscopemagnitude-mean
-timebodygyroscopemagnitude-std-dev
-timebodygyroscopejerkmagnitude-mean
-timebodygyroscopejerkmagnitude-std-dev
-frequencybodyaccelerometer-mean-x
-frequencybodyaccelerometer-mean-y
-frequencybodyaccelerometer-mean-z
-frequencybodyaccelerometer-std-dev-x
-frequencybodyaccelerometer-std-dev-y
-frequencybodyaccelerometer-std-dev-z
-frequencybodyaccelerometerjerk-mean-x
-frequencybodyaccelerometerjerk-mean-y
-frequencybodyaccelerometerjerk-mean-z
-frequencybodyaccelerometerjerk-std-dev-x
-frequencybodyaccelerometerjerk-std-dev-y
-frequencybodyaccelerometerjerk-std-dev-z
-frequencybodygyroscope-mean-x
-frequencybodygyroscope-mean-y
-frequencybodygyroscope-mean-z
-frequencybodygyroscope-std-dev-x
-frequencybodygyroscope-std-dev-y
-frequencybodygyroscope-std-dev-z
-frequencybodyaccelerometermagnitude-mean
-frequencybodyaccelerometermagnitude-std-dev
-frequencybodybodyaccelerometerjerkmagnitude-mean
-frequencybodybodyaccelerometerjerkmagnitude-std-dev
-frequencybodybodygyroscopemagnitude-mean
-frequencybodybodygyroscopemagnitude-std-dev
-frequencybodybodygyroscopejerkmagnitude-mean
-frequencybodybodygyroscopejerkmagnitude-std-dev
+- timebodyaccelerometer-mean-x
+- timebodyaccelerometer-mean-y
+- timebodyaccelerometer-mean-z
+- timebodyaccelerometer-std-dev-x
+- timebodyaccelerometer-std-dev-y
+- timebodyaccelerometer-std-dev-z
+- timegravityaccelerometer-mean-x
+- timegravityaccelerometer-mean-y
+- timegravityaccelerometer-mean-z
+- timegravityaccelerometer-std-dev-x
+- timegravityaccelerometer-std-dev-y
+- timegravityaccelerometer-std-dev-z
+- timebodyaccelerometerjerk-mean-x
+- timebodyaccelerometerjerk-mean-y
+- timebodyaccelerometerjerk-mean-z
+- timebodyaccelerometerjerk-std-dev-x
+- timebodyaccelerometerjerk-std-dev-y
+- timebodyaccelerometerjerk-std-dev-z
+- timebodygyroscope-mean-x
+- timebodygyroscope-mean-y
+- timebodygyroscope-mean-z
+- timebodygyroscope-std-dev-x
+- timebodygyroscope-std-dev-y
+- timebodygyroscope-std-dev-z
+- timebodygyroscopejerk-mean-x
+- timebodygyroscopejerk-mean-y
+- timebodygyroscopejerk-mean-z
+- timebodygyroscopejerk-std-dev-x
+- timebodygyroscopejerk-std-dev-y
+- timebodygyroscopejerk-std-dev-z
+- timebodyaccelerometermagnitude-mean
+- timebodyaccelerometermagnitude-std-dev
+- timegravityaccelerometermagnitude-mean
+- timegravityaccelerometermagnitude-std-dev
+- timebodyaccelerometerjerkmagnitude-mean
+- timebodyaccelerometerjerkmagnitude-std-dev
+- timebodygyroscopemagnitude-mean
+- timebodygyroscopemagnitude-std-dev
+- timebodygyroscopejerkmagnitude-mean
+- timebodygyroscopejerkmagnitude-std-dev
+- frequencybodyaccelerometer-mean-x
+- frequencybodyaccelerometer-mean-y
+- frequencybodyaccelerometer-mean-z
+- frequencybodyaccelerometer-std-dev-x
+- frequencybodyaccelerometer-std-dev-y
+- frequencybodyaccelerometer-std-dev-z
+- frequencybodyaccelerometerjerk-mean-x
+- frequencybodyaccelerometerjerk-mean-y
+- frequencybodyaccelerometerjerk-mean-z
+- frequencybodyaccelerometerjerk-std-dev-x
+- frequencybodyaccelerometerjerk-std-dev-y
+- frequencybodyaccelerometerjerk-std-dev-z
+- frequencybodygyroscope-mean-x
+- frequencybodygyroscope-mean-y
+- frequencybodygyroscope-mean-z
+- frequencybodygyroscope-std-dev-x
+- frequencybodygyroscope-std-dev-y
+- frequencybodygyroscope-std-dev-z
+- frequencybodyaccelerometermagnitude-mean
+- frequencybodyaccelerometermagnitude-std-dev
+- frequencybodybodyaccelerometerjerkmagnitude-mean
+- frequencybodybodyaccelerometerjerkmagnitude-std-dev
+- frequencybodybodygyroscopemagnitude-mean
+- frequencybodybodygyroscopemagnitude-std-dev
+- frequencybodybodygyroscopejerkmagnitude-mean
+- frequencybodybodygyroscopejerkmagnitude-std-dev
 
 
 ### Activities
