@@ -47,9 +47,9 @@ This section has information about the variables, including units, in the data s
 
 ### Features
 
-Features selected come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). The feature variables were further filtered to the mean and standard deviation variables. The units used are positive and negative floating point numbers. 
+Features selected come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). The feature variables were further filtered to the mean and standard deviation variables. The units used are positive and negative floating point numbers. A total of 66 variables were collected
 
- [1] "timebodyaccelerometer-mean-x"                        "timebodyaccelerometer-mean-y"                       
+[1] "timebodyaccelerometer-mean-x"                        "timebodyaccelerometer-mean-y"                       
  [3] "timebodyaccelerometer-mean-z"                        "timebodyaccelerometer-std-dev-x"                    
  [5] "timebodyaccelerometer-std-dev-y"                     "timebodyaccelerometer-std-dev-z"                    
  [7] "timegravityaccelerometer-mean-x"                     "timegravityaccelerometer-mean-y"                    
@@ -81,16 +81,18 @@ Features selected come from the accelerometer and gyroscope 3-axial raw signals 
 [59] "frequencybodyaccelerometermagnitude-mean"            "frequencybodyaccelerometermagnitude-std-dev"        
 [61] "frequencybodybodyaccelerometerjerkmagnitude-mean"    "frequencybodybodyaccelerometerjerkmagnitude-std-dev"
 [63] "frequencybodybodygyroscopemagnitude-mean"            "frequencybodybodygyroscopemagnitude-std-dev"        
-[65] "frequencybodybodygyroscopejerkmagnitude-mean"        "frequencybodybodygyroscopejerkmagnitude-std-dev"   
+[65] "frequencybodybodygyroscopejerkmagnitude-mean"        "frequencybodybodygyroscopejerkmagnitude-std-dev"  
+
+
 
 ### Activities
 
 Activities collected are inks the class labels, which are represented as a code value from 1 to 6, with their activity name. The activity name is indicated with variable text as denoted below.
-1 walking
-2 walking upstairs
-3 walking dowstairs
-4 sitting
-5 standing
+- walking
+- walking upstairs
+- walking dowstairs
+- sitting
+- standing
 
 ### Subject ID
 
@@ -99,3 +101,8 @@ Subject identifiers, represented using a numeric, are used to uniquely identify 
 
 
 ## Summary Choices
+
+This section has information about the summary choices made.
+
+1.	What columns are measurements on the mean and standard deviation? Upon review of features.txt file, there was an open question as to columns are a measurement of the mean and standard deviation. For example, there were columns such as fBodyBodyGyroMag-meanFreq() and fBodyBodyGyroMag-mean(). Choice made was to only include columns that included mean() and std() at the end of the column name. 
+2.	What descriptive activity names were created? The activity names were converted to lower case with underscores replaced with blanks from the activities file and the lying descriptor was converted to lying down. 
