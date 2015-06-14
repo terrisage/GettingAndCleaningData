@@ -48,5 +48,3 @@ tidydata <- aggregate %>%
   summarise(mean=mean(value))
 
 write.table(tidydata, "tidydata.txt", sep="\t", eol = "\n", quote=FALSE, row.names=FALSE)
-
-
