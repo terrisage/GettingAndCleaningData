@@ -148,3 +148,9 @@ This section has information about the summary choices made.
 |1 |laying down	|timebodyaccelerometer-mean-x  |0.22159824394    |
 |1 |laying down	|timebodyaccelerometer-mean-y  |-0.0405139534294 |
 |1|laying down	|timebodyaccelerometer-mean-z  |-0.11320355358   |
+
+
+| Day     | Meal    | Price |
+| --------|---------|-------|
+| Monday  | pasta   | $6    |
+| Tuesday | chicken | $8    |
