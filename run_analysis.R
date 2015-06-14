@@ -1,6 +1,5 @@
 ## Project for Getting and Cleaning Data, June 2015 Coursera.
 ## Assumes user of this script has set working directory and has security permissions required to download and unzip files. 
-
 library(tidyr)
 library(dplyr)
 
