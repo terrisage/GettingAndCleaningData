@@ -140,4 +140,10 @@ This section has information about the summary choices made.
 1.	What columns are measurements on the mean and standard deviation? Upon review of features.txt file, there was an open question as to columns are a measurement of the mean and standard deviation. For example, there were columns such as fBodyBodyGyroMag-meanFreq() and fBodyBodyGyroMag-mean(). Choice made was to only include columns that included mean() and std() at the end of the column name. 
 2.	What descriptive measurements were collected? Descriptive measures were collected from summarizing the name of feature measurements collected. Descriptors conversion include changing starting t to time, starting f to frequency, std() to std-dev, mean() to mean, body_body to body, acc to accelerometer, gyro to gyroscope, and mag to magnitude.
 3.	What descriptive activity names were created? The activity names were converted to lower case with underscores replaced with blanks from the activities file and the laying descriptor was converted to laying down. 
-4.	What does the tidy dataset summarization file include? The tidy dataset file is grouped by subject ID and activity with the average (i.e., mean) for every measurement. 
+4.	What does the tidy dataset summarization file include? The tidy dataset file is grouped by subject ID and activity with the average (i.e., mean) for every measurement. The following is a snapshot of the tidydata.txt file
+
+
+ID	activity	measurement	                    mean
+1	laying down	timebodyaccelerometer-mean-x	0.22159824394
+1	laying down	timebodyaccelerometer-mean-y	-0.0405139534294
+1	laying down	timebodyaccelerometer-mean-z	-0.11320355358
